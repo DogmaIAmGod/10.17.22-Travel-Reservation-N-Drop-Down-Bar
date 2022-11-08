@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Travel Rservation form</h1>
+    <h3>* Denotes mandatory</h3>
+
+    <p>Full Name*:</p>
+    <label for="fName"><input placeholder="FirstName LastName" type="text" id="fName" name="fName"></label>
+    <p>Email Address*:</p>
+    <label for="eAddress"><input placeholder="EMAIL_ADDRESS" type="text" id="eAddress" name="eAddress"></label>
+    <p>Select Tour Package</p>
+    <select name="Packages" id="Packages">
+        <option value="Packages">Korea</option>
+        <option value="Packages">American</option>
+        <option value="Packages">Thomas</option>
+        <option value="Packages">Goa</option>
+    </select>
+    <p>Arrival date*:</p>
+    <label for="Arrival"><input placeholder="m/d/y" type="text" id="Arrival" name="Arrival"></label>
+    <p>Number of Persons*:</p>
+    <label for="Persons"><input placeholder="UNKNOWN_TYPE" type="text" id="Persons" name="Persons"></label>
+    <p>What would you want to avail?*</p>
+    <label for="boarding">Boarding<input type="checkbox" id="boarding" name="boarding"></label><br>
+    <label for="fooding">Fooding<input type="checkbox" id="fooding" name="fooding"></label><br>
+    <label for="sightSeeing">Sight Seeing<input type="checkbox" id="sightSeeing" name="sightSeeing"></label>
+    <p>Discount Coupon Code:</p>
+    <label for="discount"><input placeholder="UNKNOWN_TYPE" type="text" id="discount" name="discount"></label>
+    <p>Terms and Conditions:*</p>
+    <label for="agree"><input type="radio" name="choice" id="agree">I Agree</label>
+    <label for="disagree"><input type="radio" name="choice" id="disagree">I Disagree</label><br>
+    <button>Complete Reservation</button>
+</body>
+</html>
